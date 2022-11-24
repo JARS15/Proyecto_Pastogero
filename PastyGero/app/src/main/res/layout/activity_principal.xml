@@ -6,34 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".Principal">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="PASTI-GERO"
-        android:textSize="20sp"
+    <Button
+        android:id="@+id/alertas"
+        android:layout_width="70dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/azulFuerte"
+        android:textAlignment="center"
+        app:cornerRadius="50mm"
+        app:icon="@drawable/campana"
+        app:iconGravity="textEnd"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="Registo de medicamento"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="243dp"
         android:layout_height="46dp"
         android:layout_marginTop="36dp"
-        android:background="@color/verde_1"
+        android:background="@color/azul"
         android:ems="10"
         android:hint="Nombre de medicamento"
         android:inputType="textPersonName"
@@ -47,7 +51,7 @@
         android:layout_width="243dp"
         android:layout_height="46dp"
         android:layout_marginTop="15dp"
-        android:background="@color/azul"
+        android:background="@color/naranja"
         android:ems="10"
         android:hint="Nombre de medicamento"
         android:inputType="textPersonName"
@@ -61,7 +65,7 @@
         android:layout_width="243dp"
         android:layout_height="46dp"
         android:layout_marginTop="15dp"
-        android:background="@color/rosa"
+        android:background="@color/amarilloBajo"
         android:ems="10"
         android:hint="Nombre de medicamento"
         android:inputType="textPersonName"
@@ -75,7 +79,7 @@
         android:layout_width="243dp"
         android:layout_height="46dp"
         android:layout_marginTop="15dp"
-        android:background="@color/morado"
+        android:background="@color/rosa"
         android:ems="10"
         android:hint="Nombre de medicamento"
         android:inputType="textPersonName"
@@ -89,7 +93,7 @@
         android:layout_width="243dp"
         android:layout_height="46dp"
         android:layout_marginTop="15dp"
-        android:background="@color/amarilloBajo"
+        android:background="@color/verdeBajito"
         android:ems="10"
         android:hint="Nombre de medicamento"
         android:inputType="textPersonName"
@@ -117,7 +121,7 @@
         android:layout_width="243dp"
         android:layout_height="46dp"
         android:layout_marginTop="15dp"
-        android:background="@color/naranja"
+        android:background="@color/morado"
         android:ems="10"
         android:hint="Nombre de medicamento"
         android:inputType="textPersonName"
@@ -134,26 +138,11 @@
         app:layout_constraintGuide_begin="-18dp" />
 
     <Button
-        android:id="@+id/alertas"
-        android:layout_width="70dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="16dp"
-        android:textAlignment="center"
-        app:cornerRadius="50mm"
-        app:icon="@drawable/campana"
-        app:iconGravity="textEnd"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.7"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <Button
         android:id="@+id/alarma1"
         android:layout_width="70dp"
         android:layout_height="49dp"
         android:layout_marginTop="64dp"
-        android:backgroundTint="@color/reloj_verde"
+        android:backgroundTint="@color/azul"
         android:textAlignment="center"
         app:cornerRadius="50mm"
         app:icon="@drawable/alarma"
@@ -169,7 +158,7 @@
         android:layout_width="70dp"
         android:layout_height="49dp"
         android:layout_marginTop="12dp"
-        android:backgroundTint="@color/reloj_azul"
+        android:backgroundTint="@color/reloj_naranja"
         android:textAlignment="center"
         app:cornerRadius="50mm"
         app:icon="@drawable/alarma"
@@ -185,7 +174,7 @@
         android:layout_width="70dp"
         android:layout_height="49dp"
         android:layout_marginTop="12dp"
-        android:backgroundTint="@color/reloj_naranja"
+        android:backgroundTint="@color/reloj_morado"
         android:textAlignment="center"
         app:cornerRadius="50mm"
         app:icon="@drawable/alarma"
@@ -201,7 +190,7 @@
         android:layout_width="70dp"
         android:layout_height="49dp"
         android:layout_marginTop="12dp"
-        android:backgroundTint="@color/reloj_morado"
+        android:backgroundTint="@color/reloj_rosa"
         android:textAlignment="center"
         app:cornerRadius="50mm"
         app:icon="@drawable/alarma"
@@ -217,7 +206,7 @@
         android:layout_width="70dp"
         android:layout_height="49dp"
         android:layout_marginTop="12dp"
-        android:backgroundTint="@color/reloj_rosa"
+        android:backgroundTint="@color/reloj_amarilloBajo"
         android:textAlignment="center"
         app:cornerRadius="50mm"
         app:icon="@drawable/alarma"
@@ -233,7 +222,7 @@
         android:layout_width="70dp"
         android:layout_height="49dp"
         android:layout_marginTop="8dp"
-        android:backgroundTint="@color/reloj_amarilloBajo"
+        android:backgroundTint="@color/reloj_verde"
         android:textAlignment="center"
         app:cornerRadius="50mm"
         app:icon="@drawable/alarma"
@@ -259,5 +248,16 @@
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName7"
         app:layout_constraintTop_toBottomOf="@+id/alarma6"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="102dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_oficial_png" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun login() {
-        if ((textUsuario.text.toString() == "pastigero@gmail") && (textPassword.text.toString() == "12345")){
+        if ((textUsuario.text.toString() == "pastigero") && (textPassword.text.toString() == "12345")){
             startActivity(Intent(this, Principal::class.java))
         }
     }

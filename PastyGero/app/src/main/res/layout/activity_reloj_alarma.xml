@@ -9,17 +9,39 @@
 
     <TimePicker
         android:id="@+id/relojAlarma"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"></TimePicker>
+        android:layout_width="410dp"
+        android:layout_height="735dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"></TimePicker>
 
-    <TextView
-        android:id="@+id/textoDeHora"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/relojAlarma"
-        tools:layout_editor_absoluteX="0dp" />
+    <Button
+        android:id="@+id/buttonToma"
+        android:layout_width="136dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="488dp"
+        android:backgroundTint="@color/verde_1"
+        android:text="Guardar"
+        app:cornerRadius="50mm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRegreso"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="116dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_ios_24"
+        app:cornerRadius="50mm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

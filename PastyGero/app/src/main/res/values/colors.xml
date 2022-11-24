@@ -8,13 +8,16 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="verde_1">#009688</color>
-    <color name="azul">#9CDBF8</color>
-    <color name="naranja">#FF5722</color>
-    <color name="morado">#C39BFB</color>
-    <color name="rosa">#CE71DD</color>
-    <color name="amarilloBajo">#F1FAA1</color>
-    <color name="amarillo">#FFEB3B</color>
-
+    <color name="azul">#8DBAFF</color>
+    <color name="naranja">#FF9E4E</color>
+    <color name="morado">#C39FE8</color>
+    <color name="rosa">#FF73C9</color>
+    <color name="amarilloBajo">#F8FF78</color>
+    <color name="verdeBajito">#99FF84</color>
+    <color name="amarillo">#F4C509</color>
+    <color name="azulFuerte">#2196F3</color>
+    <color name="rojo">#EA1111</color>
+    <color name="verde">#16EC1F</color>
 
     //Color de Los relojes
     <color name="reloj_verde">#007C70</color>
