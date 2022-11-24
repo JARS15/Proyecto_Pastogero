@@ -19,19 +19,27 @@ private lateinit var alarmaSiete:Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_principal)
-        alerta=findViewById(R.id.alertas)
-        alarmaUno=findViewById(R.id.alarma1)
-        alarmaDos=findViewById(R.id.alarma2)
-        alarmaTres=findViewById(R.id.alarma3)
-        alarmaCuatro=findViewById(R.id.alarma4)
-        alarmaCinco=findViewById(R.id.alarma5)
-        alarmaSeis=findViewById(R.id.alarma6)
-        alarmaSiete=findViewById(R.id.alarma7)
+        alerta = findViewById(R.id.alertas)
+        alarmaUno = findViewById(R.id.alarma1)
+        alarmaDos = findViewById(R.id.alarma2)
+        alarmaTres = findViewById(R.id.alarma3)
+        alarmaCuatro = findViewById(R.id.alarma4)
+        alarmaCinco = findViewById(R.id.alarma5)
+        alarmaSeis = findViewById(R.id.alarma6)
+        alarmaSiete = findViewById(R.id.alarma7)
 
-        alerta.setOnClickListener{
+        alerta.setOnClickListener {
             notificaciones()
         }
 
+        alarmaUno.setOnClickListener{
+            reloj()
+        }
+
+    }
+
+    private fun reloj() {
+        startActivity(Intent(this,Reloj_Alarma::class.java))
     }
 
     private fun notificaciones() {

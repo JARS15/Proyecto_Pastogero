@@ -36,4 +36,5 @@ class MainActivity : AppCompatActivity() {
     private fun nuevoUsuario(){
         startActivity(Intent(this, Registros::class.java))
     }
+
 }
